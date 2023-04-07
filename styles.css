@@ -84,3 +84,35 @@ body{
    max-width: 450px;
    max-height: 450px;
 }
+
+.random-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.random-info-title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: #1f2937;
+}
+
+.random-info-imageContainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 80px;
+}
+
+.random-info-image > img{
+    max-width: 200px;
+    max-height: 200px;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+}
+
+.random-info-image{
+    max-width: 200px;
+}
+
