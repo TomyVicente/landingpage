@@ -137,7 +137,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .call-to-action-box{
@@ -171,4 +171,12 @@ body{
     border:2px solid #f9faf8;
     border-radius: 3px;
     padding: 5px 10px;
+}
+
+.footer{
+    background-color: #1f2937;
+    text-align: center;
+    color: #F9faf8;
+    margin-top: 50px ;
+    padding: 20px;
 }
