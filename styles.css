@@ -132,3 +132,43 @@ body{
     font-weight: bold;
 
 }
+
+.call-to-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.call-to-action-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 20px 60px;
+    min-width: 600px;
+}
+
+.call-to-action-box-text{
+    padding: 5px;
+    color: #F9faf8;
+    margin-right:auto ;
+}
+
+.call-to-action-box-text > span{
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+.call-to-action-box-button{
+    margin-left: auto;
+}
+
+.call-to-action-box-button > button{
+    background-color: #3882f6;
+    color: #F9faf8;
+    border:2px solid #f9faf8;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
